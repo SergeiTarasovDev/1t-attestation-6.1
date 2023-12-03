@@ -1,72 +1,15 @@
-version: '3'
+version: "3.8"
 services:
   postgres:
-    image: postgres:13
-    environment:
-      POSTGRES_DB: airflow
-      POSTGRES_USER: airflow
-      POSTGRES_PASSWORD: airflow
-    volumes:
-      - postgres-db-volume:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d quotes"]
-      interval: 10s
-      timeout: 10s
-      retries: 3
-    restart: always
-
-  db:
-    image: postgres:13
-    container_name: user_pg
-    environment:
-      POSTGRES_DB: quotes
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      PGDATA: "/var/lib/postgresql/data/pgdata"
-    volumes:
-      - user-pg-db-vol:/var/lib/postgresql/data
+    image: postgres:latest
     ports:
       - 5434:5432
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d quotes"]
-      interval: 10s
-      timeout: 10s
-      retries: 3
-
-  airflow:
-    build: .
-    restart: always
-    depends_on:
-      - postgres
     environment:
-      AIRFLOW__CORE__FERNET_KEY: HXJmviZ45J6R0bM1DFFij0JJ1ca_JMDWo9Z-Q-wqsFk=
-      AIRFLOW__WEBSERVER__SECRET_KEY: b27dfe9846d048294adc0df96ad43239fa325db739a0a69a60672e3e6272
-      AIRFLOW__CORE__LOAD_EXAMPLES: false
-    ports:
-      - 8080:8080
-    volumes:
-      - ./dags:/usr/local/airflow/dags
-      - ./logs:/usr/local/airflow/logs
-      - ./plugins:/usr/local/airflow/plugins
-      - ./input:/usr/local/airflow/input
-
-  clickhouse:
-    image: clickhouse/clickhouse-server:latest
-    networks:
-        - clickhouse
-    ulimits:
-        nofile:
-          soft: 262144
-          hard: 262144
-    ports:
-      - "8123:8123"
-    volumes:
-      - ./ddl/ddl-init.sql:/docker-entrypoint-initdb.d/ddl-init.sql
-
-networks:
-  clickhouse:
-
-volumes:
-  postgres-db-volume:
-  user-pg-db-vol:
-  clickhouse-data:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: quotes
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 5s
+      retries: 5
+    restart: always
