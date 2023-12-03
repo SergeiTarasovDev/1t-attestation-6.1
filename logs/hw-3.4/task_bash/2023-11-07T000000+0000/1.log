@@ -1,0 +1,21 @@
+[2023-12-02 15:33:31,010] {{taskinstance.py:670}} INFO - Dependencies all met for <TaskInstance: hw-3.4.task_bash 2023-11-07T00:00:00+00:00 [queued]>
+[2023-12-02 15:33:31,131] {{taskinstance.py:670}} INFO - Dependencies all met for <TaskInstance: hw-3.4.task_bash 2023-11-07T00:00:00+00:00 [queued]>
+[2023-12-02 15:33:31,134] {{taskinstance.py:880}} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-02 15:33:31,135] {{taskinstance.py:881}} INFO - Starting attempt 1 of 1
+[2023-12-02 15:33:31,137] {{taskinstance.py:882}} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-02 15:33:31,163] {{taskinstance.py:901}} INFO - Executing <Task(BashOperator): task_bash> on 2023-11-07T00:00:00+00:00
+[2023-12-02 15:33:31,171] {{standard_task_runner.py:54}} INFO - Started process 160 to run task
+[2023-12-02 15:33:31,264] {{standard_task_runner.py:77}} INFO - Running: ['airflow', 'run', 'hw-3.4', 'task_bash', '2023-11-07T00:00:00+00:00', '--job_id', '8', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/hw-3.4.py', '--cfg_path', '/tmp/tmp5fubur2y']
+[2023-12-02 15:33:31,266] {{standard_task_runner.py:78}} INFO - Job 8: Subtask task_bash
+[2023-12-02 15:33:31,327] {{logging_mixin.py:120}} INFO - Running <TaskInstance: hw-3.4.task_bash 2023-11-07T00:00:00+00:00 [running]> on host 742d4d2983a3
+[2023-12-02 15:33:31,355] {{bash_operator.py:113}} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-02 15:33:31,359] {{bash_operator.py:136}} INFO - Temporary script location: /tmp/airflowtmp6oaf1eda/task_bashjg_z4zkw
+[2023-12-02 15:33:31,360] {{bash_operator.py:146}} INFO - Running command: echo "Good morning my diggers"
+[2023-12-02 15:33:31,377] {{bash_operator.py:153}} INFO - Output:
+[2023-12-02 15:33:31,386] {{bash_operator.py:157}} INFO - Good morning my diggers
+[2023-12-02 15:33:31,388] {{bash_operator.py:161}} INFO - Command exited with return code 0
+[2023-12-02 15:33:31,401] {{taskinstance.py:1070}} INFO - Marking task as SUCCESS.dag_id=hw-3.4, task_id=task_bash, execution_date=20231107T000000, start_date=20231202T153331, end_date=20231202T153331
+[2023-12-02 15:33:35,978] {{local_task_job.py:102}} INFO - Task exited with return code 0

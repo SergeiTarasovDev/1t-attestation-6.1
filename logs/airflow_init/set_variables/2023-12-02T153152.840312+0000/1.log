@@ -1,0 +1,23 @@
+[2023-12-02 15:32:03,061] {{taskinstance.py:670}} INFO - Dependencies all met for <TaskInstance: airflow_init.set_variables 2023-12-02T15:31:52.840312+00:00 [queued]>
+[2023-12-02 15:32:03,084] {{taskinstance.py:670}} INFO - Dependencies all met for <TaskInstance: airflow_init.set_variables 2023-12-02T15:31:52.840312+00:00 [queued]>
+[2023-12-02 15:32:03,086] {{taskinstance.py:880}} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-02 15:32:03,088] {{taskinstance.py:881}} INFO - Starting attempt 1 of 1
+[2023-12-02 15:32:03,089] {{taskinstance.py:882}} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-02 15:32:03,116] {{taskinstance.py:901}} INFO - Executing <Task(BashOperator): set_variables> on 2023-12-02T15:31:52.840312+00:00
+[2023-12-02 15:32:03,124] {{standard_task_runner.py:54}} INFO - Started process 70 to run task
+[2023-12-02 15:32:03,218] {{standard_task_runner.py:77}} INFO - Running: ['airflow', 'run', 'airflow_init', 'set_variables', '2023-12-02T15:31:52.840312+00:00', '--job_id', '2', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/init_airflow.py', '--cfg_path', '/tmp/tmp4czpkcou']
+[2023-12-02 15:32:03,221] {{standard_task_runner.py:78}} INFO - Job 2: Subtask set_variables
+[2023-12-02 15:32:03,285] {{logging_mixin.py:120}} INFO - Running <TaskInstance: airflow_init.set_variables 2023-12-02T15:31:52.840312+00:00 [running]> on host 742d4d2983a3
+[2023-12-02 15:32:03,452] {{bash_operator.py:113}} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-02 15:32:03,455] {{bash_operator.py:136}} INFO - Temporary script location: /tmp/airflowtmpc7br1_zn/set_variableszlz2zcli
+[2023-12-02 15:32:03,456] {{bash_operator.py:146}} INFO - Running command: airflow variables import /usr/local/airflow/input/variables.json
+[2023-12-02 15:32:03,471] {{bash_operator.py:153}} INFO - Output:
+[2023-12-02 15:32:06,394] {{bash_operator.py:157}} INFO - /usr/local/lib/python3.7/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-02 15:32:06,395] {{bash_operator.py:157}} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-02 15:32:06,843] {{bash_operator.py:157}} INFO - 5 of 5 variables successfully updated.
+[2023-12-02 15:32:07,657] {{bash_operator.py:161}} INFO - Command exited with return code 0
+[2023-12-02 15:32:07,673] {{taskinstance.py:1070}} INFO - Marking task as SUCCESS.dag_id=airflow_init, task_id=set_variables, execution_date=20231202T153152, start_date=20231202T153203, end_date=20231202T153207
+[2023-12-02 15:32:08,052] {{local_task_job.py:102}} INFO - Task exited with return code 0

@@ -1,0 +1,24 @@
+[2023-12-02 16:56:47,260] {{taskinstance.py:670}} INFO - Dependencies all met for <TaskInstance: hw-3.4.load_data_psql 2023-12-02T15:52:55.287974+00:00 [queued]>
+[2023-12-02 16:56:47,371] {{taskinstance.py:670}} INFO - Dependencies all met for <TaskInstance: hw-3.4.load_data_psql 2023-12-02T15:52:55.287974+00:00 [queued]>
+[2023-12-02 16:56:47,373] {{taskinstance.py:880}} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-02 16:56:47,374] {{taskinstance.py:881}} INFO - Starting attempt 17 of 17
+[2023-12-02 16:56:47,376] {{taskinstance.py:882}} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-02 16:56:47,406] {{taskinstance.py:901}} INFO - Executing <Task(PythonOperator): load_data_psql> on 2023-12-02T15:52:55.287974+00:00
+[2023-12-02 16:56:47,414] {{standard_task_runner.py:54}} INFO - Started process 2634 to run task
+[2023-12-02 16:56:47,512] {{standard_task_runner.py:77}} INFO - Running: ['airflow', 'run', 'hw-3.4', 'load_data_psql', '2023-12-02T15:52:55.287974+00:00', '--job_id', '26', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/hw-3.4.py', '--cfg_path', '/tmp/tmpz9zowz62']
+[2023-12-02 16:56:47,515] {{standard_task_runner.py:78}} INFO - Job 26: Subtask load_data_psql
+[2023-12-02 16:56:47,574] {{logging_mixin.py:120}} INFO - Running <TaskInstance: hw-3.4.load_data_psql 2023-12-02T15:52:55.287974+00:00 [running]> on host 2cf373442eb7
+[2023-12-02 16:56:47,610] {{base_hook.py:89}} INFO - Using connection to: id: conn1. Host: host.docker.internal, Port: 5434, Schema: quotes, Login: postgres, Password: XXXXXXXX, extra: None
+[2023-12-02 16:56:48,036] {{logging_mixin.py:120}} INFO - ------------ response --------------
+[2023-12-02 16:56:48,042] {{logging_mixin.py:120}} INFO - http://api.exchangerate.host/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&access_key=XFXOO5DWCE1OF11E&apikey=XFXOO5DWCE1OF11E
+[2023-12-02 16:56:48,044] {{logging_mixin.py:120}} INFO - None
+[2023-12-02 16:56:48,046] {{logging_mixin.py:120}} INFO - {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+[2023-12-02 16:56:48,048] {{logging_mixin.py:120}} INFO - ------------ end --------------
+[2023-12-02 16:56:48,050] {{logging_mixin.py:120}} INFO - ------------ data --------------
+[2023-12-02 16:56:48,053] {{logging_mixin.py:120}} INFO - {'success': False, 'error': {'code': 101, 'type': 'invalid_access_key', 'info': 'You have not supplied a valid API Access Key. [Technical Support: support@apilayer.com]'}}
+[2023-12-02 16:56:48,055] {{logging_mixin.py:120}} INFO - ------------ end --------------
+[2023-12-02 16:56:48,057] {{python_operator.py:114}} INFO - Done. Returned value was: None
+[2023-12-02 16:56:48,067] {{taskinstance.py:1070}} INFO - Marking task as SUCCESS.dag_id=hw-3.4, task_id=load_data_psql, execution_date=20231202T155255, start_date=20231202T165647, end_date=20231202T165648
+[2023-12-02 16:56:52,222] {{local_task_job.py:102}} INFO - Task exited with return code 0

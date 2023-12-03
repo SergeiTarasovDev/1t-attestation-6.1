@@ -22,8 +22,3 @@ Variables:
     "RATE_TARGET": "USD",
     "RATE_URL_API": "9320603ab554ad114bd43b3d4b5905c0"
 }
-
-
-
-API_SERVICE: https://www.alphavantage.co
-API_KEY: VXR5L07YOZWJ1S1V# 1t-attestation-6.1
