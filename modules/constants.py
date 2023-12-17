@@ -1,8 +1,8 @@
 import psycopg2 as ps
 
 connection = ps.connect(
-    host='localhost',
-    port='5434',
+    host='postgres',
+    port='5432',
     user='postgres',
     password='postgres',
     database='quotes',

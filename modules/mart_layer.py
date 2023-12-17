@@ -20,7 +20,7 @@ def mart_init_db():
     cursor.execute(query)
     cursor.close()
     c.connection.commit()
-    print("Таблицы БД инициализированы")
+    print("Init tables")
 
 
 def mart_extract_load_quotes():

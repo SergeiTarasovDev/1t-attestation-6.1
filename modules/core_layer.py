@@ -1,4 +1,5 @@
 from modules import constants as c
+import psycopg2 as ps
 
 def core_init_db():
     cursor = c.connection.cursor()
@@ -25,28 +26,34 @@ def core_init_db():
     cursor.execute(query)
     cursor.close()
     c.connection.commit()
-    print("Таблицы БД инициализированы")
+    print("Init tables")
 
 
 def core_extract_load_symbols():
-    cursor = c.connection.cursor()
-    query = ("INSERT INTO core.d_symbols (symbol_id, symbol_code, symbol_name) "
-             "SELECT symbol_id, symbol_code, symbol_name "
-             "FROM raw.symbols")
-    cursor.execute(query)
-    cursor.close()
-    c.connection.commit()
-    print("Данные загружены")
+    try:
+        cursor = c.connection.cursor()
+        query = ("INSERT INTO core.d_symbols (symbol_id, symbol_code, symbol_name) "
+                 "SELECT symbol_id, symbol_code, symbol_name "
+                 "FROM raw.symbols")
+        cursor.execute(query)
+        cursor.close()
+        c.connection.commit()
+        print("Data loaded")
+    except ps.errors.UniqueViolation:
+        print("the entry already exists")
 
 
 def core_extract_load_quotes():
-    cursor = c.connection.cursor()
-    query = ("INSERT INTO core.f_quotes "
-             "(symbol_id, quote_time, quote_interval, quote_open, quote_close, quote_high, quote_low, volume) "
-             "SELECT s.symbol_id, q.quote_time, q.quote_interval, q.quote_open, q.quote_close, q.quote_high, q.quote_low, q.volume "
-             "FROM raw.stock_quotes AS q "
-             "LEFT JOIN raw.symbols AS s ON s.symbol_code = q.symbol")
-    cursor.execute(query)
-    cursor.close()
-    c.connection.commit()
-    print("Данные загружены")
+    try:
+        cursor = c.connection.cursor()
+        query = ("INSERT INTO core.f_quotes "
+                 "(symbol_id, quote_time, quote_interval, quote_open, quote_close, quote_high, quote_low, volume) "
+                 "SELECT s.symbol_id, q.quote_time, q.quote_interval, q.quote_open, q.quote_close, q.quote_high, q.quote_low, q.volume "
+                 "FROM raw.stock_quotes AS q "
+                 "LEFT JOIN raw.symbols AS s ON s.symbol_code = q.symbol")
+        cursor.execute(query)
+        cursor.close()
+        c.connection.commit()
+        print("Data loaded")
+    except ps.errors.UniqueViolation:
+        print("the entry already exists")

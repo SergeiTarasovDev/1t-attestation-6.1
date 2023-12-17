@@ -24,4 +24,12 @@
  - postgresql
  - docker-compose
 
-P.S. не успел дописать модуль для ежедневной догрузки данных
+## Инструкция по развертыванию проекта:
+
+1. Запустить docker-compose, с помощью команды docker-compose up
+2. Настроить подключение к базе данных, с помощью dBeaver, используя следующие параметры подключения:
+   - host: localhost
+   - port: 5434
+   - user: postgres
+   - password: postgres
+   - database: quotes

@@ -13,3 +13,12 @@ services:
       interval: 5s
       retries: 5
     restart: always
+    
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    restart: on-failure
+    

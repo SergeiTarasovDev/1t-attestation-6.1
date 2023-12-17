@@ -34,7 +34,7 @@ def raw_init_db():
     cursor.execute(query)
     cursor.close()
     c.connection.commit()
-    print("Таблицы БД инициализированы")
+    print("Init loaded")
 
 
 def get_symbols(keywords):
@@ -88,7 +88,7 @@ def raw_load_symbols_test():
     cursor.execute(query)
     cursor.close()
     c.connection.commit()
-    print("Данные загружены")
+    print("Data loaded")
 
 
 def raw_load_symbols(symbol_list):
@@ -100,7 +100,7 @@ def raw_load_symbols(symbol_list):
     cursor.executemany(query, symbol_list)
     cursor.close()
     c.connection.commit()
-    print("Данные загружены")
+    print("Data loaded")
 
 
 def get_quotes(symbol, month):
@@ -117,7 +117,7 @@ def raw_extract_quotes(month):
     for symbol in c.symbols:
         print(symbol)
         extract_quotes_by_symbol(symbol, month)
-    print("Данные получены")
+    print("Get data")
 
 
 # API позволяет получать исторические данные по месяцам,
@@ -171,7 +171,7 @@ def raw_load_quotes_test():
     cursor.execute(query)
     cursor.close()
     c.connection.commit()
-    print("Данные загружены")
+    print("Data loaded")
 
 
 def raw_load_quotes(quote_list):
@@ -182,4 +182,4 @@ def raw_load_quotes(quote_list):
     cursor.executemany(query, quote_list)
     cursor.close()
     c.connection.commit()
-    print("Данные загружены")
+    print("Data loaded")
