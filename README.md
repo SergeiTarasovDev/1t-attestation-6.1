@@ -33,4 +33,3 @@
    - user: postgres
    - password: postgres
    - database: quotes
-   - 
