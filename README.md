@@ -17,7 +17,7 @@
 Источник данных: https://www.alphavantage.co/documentation/
 
 Схема проекта:
-![Схема проекта](https://github.com/SergeiTarasovDev/1t-attestation-6.1/blob/main/src/scheme.png?raw=true
+![Схема проекта](/src/scheme.png)
 
 Использованные технологии:
  - python
@@ -33,3 +33,4 @@
    - user: postgres
    - password: postgres
    - database: quotes
+   - 
