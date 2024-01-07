@@ -1,5 +1,6 @@
 ## Аттестационная работа
 Тема: Анализ рынка акций
+![Ссылка на презентацию](https://github.com/SergeiTarasovDev/1t-attestation-6.1/blob/main/presentation/presentation.pdf)
 
 Цель проекта: создать витрину, содержащую обработанные данные по котировкам акций.
 
