@@ -1,24 +1,39 @@
-version: "3.8"
+version: "3.9"
 services:
   postgres:
     image: postgres:latest
     ports:
-      - 5434:5432
+      - :5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: quotes
-    healthcheck:
-      test: ["CMD", "pg_isready", "-U", "postgres"]
-      interval: 5s
-      retries: 5
-    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
     
-  app:
+  python:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.python
+    user: root
     volumes:
       - .:/app
-    restart: on-failure
-    
+      - ./var/log:/var/log
+    environment:
+      - POSTGRES_HOST=quotes
+    depends_on:
+      - postgres
+
+  cron:
+    build:
+      context: .
+      dockerfile: Dockerfile.cron
+    user: root
+    volumes:
+      - .:/app
+      - ./var/log:/var/log
+    depends_on:
+      - postgres
+
+volumes:
+  db-data:

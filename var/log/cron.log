@@ -1,0 +1,6182 @@
+try connection
+connection success
+
+==================================================================================
+today.py 2023-12-23 20:54:09
+
+2023-12
+---> extract_quotes
+IBM
+---> extract_quotes_by_symbol
+---> get_quotes_history
+https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&outputsize=full&month=2023-12&apikey=XFXOO5DWCE1OF11E
+---> save_json_to_file
+---> save_json_to_file
+INTC
+---> extract_quotes_by_symbol
+---> get_quotes_history
+https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=INTC&interval=5min&outputsize=full&month=2023-12&apikey=XFXOO5DWCE1OF11E
+---> save_json_to_file
+---> save_json_to_file
+TSLA
+---> extract_quotes_by_symbol
+---> get_quotes_history
+https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=5min&outputsize=full&month=2023-12&apikey=XFXOO5DWCE1OF11E
+---> save_json_to_file
+---> save_json_to_file
+NFC.DEX
+---> extract_quotes_by_symbol
+---> get_quotes_history
+https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NFC.DEX&interval=5min&outputsize=full&month=2023-12&apikey=XFXOO5DWCE1OF11E
+---> save_json_to_file
+---> save_json_to_file
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> load_quotes
+Table stock_quotes success
+---> save_raw_to_csv
+Create core layer
+Init tables
+Data loaded
+Create Mart layer
+Init tables

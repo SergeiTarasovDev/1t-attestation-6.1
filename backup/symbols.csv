@@ -1,0 +1,32 @@
+symbol_id,symbol_code,symbol_name,symbol_type,region,market_open,market_close,timezone,currency,match_score
+1,IBM,IBM name,IBM type,region,market_op,market_cl,timezone,currency,0.223
+2,I01.FRK,IsoEnergy Ltd,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+3,I0R.FRK,FIRST AMERN URANIUM,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+4,I10.FRK,Italgas S.p.A,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+5,I1D.FRK,ARRAIL GROUP LTD.,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+6,I1F.FRK,Q4 INC.,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+7,I1M.FRK,Indutrade AB (publ),Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+8,I1AC34.SAO,IAC/InterActiveCorp,Equity,Brazil/Sao Paolo,10:00,17:30,UTC-03,BRL,0.2
+9,I1CE34.SAO,Intercontinental Exchange Inc.,Equity,Brazil/Sao Paolo,10:00,17:30,UTC-03,BRL,0.2
+10,I1FO34.SAO,Infosys Limited,Equity,Brazil/Sao Paolo,10:00,17:30,UTC-03,BRL,0.2
+11,I1LM34.SAO,Illumina Inc.,Equity,Brazil/Sao Paolo,10:00,17:30,UTC-03,BRL,0.2
+12,B,Barnes Group Inc,Equity,United States,09:30,16:00,UTC-04,USD,1.0
+13,NFC.DEX,BCM Resources Corp,Equity,Toronto Venture,09:30,16:00,UTC-05,CAD,0.5
+14,B02.FRK,NUEV.EXP.TEX.INH.EO-016,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+15,B04.FRK,BOKU INC. REG S DL-0001,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+16,B0F.FRK,PAXMAN AB,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+17,B0M.FRK,ALPINA HOLDINGS,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+18,B0R.FRK,Bathurst Resources Ltd,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+19,B0T.FRK,PROMIMIC AB,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+20,B0Z.FRK,REDELFI SPA,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+21,B00:BE,null,Equity,United States,09:30,16:00,UTC-04,USD,0.2857
+22,M,Macy`s Inc,Equity,United States,09:30,16:00,UTC-04,USD,1.0
+23,INTC,VERTICAL AEROSP.DL-0001,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+24,M01.FRK,Mason Graphite Inc,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+25,M04.FRK,MGM China Holdings Limited,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+26,M05.FRK,Malibu Boats Inc,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+27,M07.FRK,MSA Safety Incorporated,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+28,M09.FRK,Mota-Engil SGPS S.A,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+29,M0G.FRK,FIREWEED METALS CORP.,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+30,M0W.FRK,SPORT LISBOA E BENF. EO 5,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.3333
+31,TSLA,GREENLAND RESOURCES INC.,Equity,Frankfurt,08:00,20:00,UTC+02,EUR,0.2857

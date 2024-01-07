@@ -1,7 +1,7 @@
-from modules import constants as c
+from modules import repository as r
 
-def mart_init_db():
-    cursor = c.connection.cursor()
+def init_db():
+    cursor = r.connection.cursor()
     query = '''CREATE SCHEMA IF NOT EXISTS mart;'''
     cursor.execute(query)
 
@@ -19,12 +19,12 @@ def mart_init_db():
                     );'''
     cursor.execute(query)
     cursor.close()
-    c.connection.commit()
+    r.connection.commit()
     print("Init tables")
 
 
-def mart_extract_load_quotes():
-    cursor = c.connection.cursor()
+def extract_load_quotes():
+    cursor = r.connection.cursor()
     query = '''TRUNCATE mart.dm_quotes_analyze'''
     cursor.execute(query)
 
@@ -99,7 +99,8 @@ def mart_extract_load_quotes():
             period_max_volume,
             preiod_max_quote,
             period_min_quote
-        FROM start_end_quotes_in_date        
+        FROM start_end_quotes_in_date
+        ORDER BY quote_date DESC    
     '''
     cursor.execute(query)
     cursor.close()
